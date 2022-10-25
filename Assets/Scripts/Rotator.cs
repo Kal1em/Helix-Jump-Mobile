@@ -6,15 +6,15 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
-    public float rotationSpeed = 150;
+    public float rotationSpeed = 30;
 
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.isGameStarted)
+        /*if (GameManager.isGameStarted)
         {
             return;
-        }
+        }*/
         //For PC
         /*if (Input.GetMouseButton(0))
         {
